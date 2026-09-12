@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="brcheckers/brcheckers.vcxproj" />
+  <Project Path="brcheckers/brcheckers.vcxproj" Id="3f786897-4371-4395-b9d3-d0ad6ad94891" />
 </Solution>
