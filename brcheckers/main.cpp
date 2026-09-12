@@ -1,3 +1,7 @@
-#include <iostream>
+#include "GameController.hpp"
 
-int main() { return 0; }
+int main() {
+    GameController controller;
+    controller.run();
+    return 0;
+}

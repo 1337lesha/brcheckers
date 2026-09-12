@@ -19,6 +19,12 @@
     <Filter Include="Файлы заголовков\core">
       <UniqueIdentifier>{ced88e4d-520f-4cdc-9c6b-30568b78ff3b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\ui">
+      <UniqueIdentifier>{dc2932d5-c85c-4f21-ae15-6033a618452a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ui">
+      <UniqueIdentifier>{55a69f85-9541-455c-965d-f9446fd05dd1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -26,6 +32,15 @@
     </ClCompile>
     <ClCompile Include="Board.cpp">
       <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveGenerator.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Исходные файлы\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Исходные файлы\ui</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -37,6 +52,15 @@
     </ClInclude>
     <ClInclude Include="Board.hpp">
       <Filter>Файлы заголовков\core</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveGenerator.hpp">
+      <Filter>Файлы заголовков\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.hpp">
+      <Filter>Файлы заголовков\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.hpp">
+      <Filter>Файлы заголовков\ui</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
