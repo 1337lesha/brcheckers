@@ -11,7 +11,9 @@ find_package(SFML 3.0 COMPONENTS Graphics Window System REQUIRED)
 add_executable(checkers_game
     src/core/Board.cpp
     src/core/MoveGenerator.cpp
-    src/ui/Render.cpp
+    src/ai/Evaluator.cpp
+    src/ai/Minimax.cpp
+    src/ui/Renderer.cpp
     src/ui/GameController.cpp
     src/main.cpp
 )

@@ -25,6 +25,12 @@
     <Filter Include="Исходные файлы\ui">
       <UniqueIdentifier>{55a69f85-9541-455c-965d-f9446fd05dd1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\ai">
+      <UniqueIdentifier>{9365e252-717e-4bc4-84ed-46ec4eba5b98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ai">
+      <UniqueIdentifier>{1a9e0163-c2df-4c6e-847e-41409e5a0a8f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -41,6 +47,12 @@
     </ClCompile>
     <ClCompile Include="GameController.cpp">
       <Filter>Исходные файлы\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Evaluator.cpp">
+      <Filter>Исходные файлы\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="Minimax.cpp">
+      <Filter>Исходные файлы\ai</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +73,12 @@
     </ClInclude>
     <ClInclude Include="GameController.hpp">
       <Filter>Файлы заголовков\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Evaluator.hpp">
+      <Filter>Файлы заголовков\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="Minimax.hpp">
+      <Filter>Файлы заголовков\ai</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
