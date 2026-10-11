@@ -143,14 +143,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Board.cpp" />
+    <ClCompile Include="Evaluator.cpp" />
     <ClCompile Include="GameController.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Minimax.cpp" />
     <ClCompile Include="MoveGenerator.cpp" />
     <ClCompile Include="Render.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Board.hpp" />
+    <ClInclude Include="Evaluator.hpp" />
     <ClInclude Include="GameController.hpp" />
+    <ClInclude Include="Minimax.hpp" />
     <ClInclude Include="MoveGenerator.hpp" />
     <ClInclude Include="Render.hpp" />
     <ClInclude Include="SimpleVector.hpp" />
